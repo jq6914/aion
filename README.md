@@ -2,4 +2,8 @@
 
 사람들이 쉽게 국내 여행지를 찾고 계획할 수 있도록 돕는 플랫폼
 
+
+
 ![image](https://github.com/user-attachments/assets/b717f4e2-de87-4154-9b05-ee6356cffea8)
+![image](https://github.com/user-attachments/assets/cd855c30-999d-429b-8efe-8ca730c3cbaf)
+![image](https://github.com/user-attachments/assets/d4ecce1d-9861-4b83-a4ac-0018b473ea3d)
