@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>검색 결과</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 2rem;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        .result {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>검색 결과</h1>
+    <div class="result" id="resultBox">검색어를 불러오는 중...</div>
+
+    <script>
+        // URL에서 query 파라미터 가져오기
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('query');
+
+        // 결과 출력
+        const resultBox = document.getElementById('resultBox');
+        if (query) {
+            resultBox.textContent = `입력한 검색어: "${query}"`;
+        } else {
+            resultBox.textContent = "검색어가 없습니다.";
+        }
+    </script>
+</body>
+</html>
